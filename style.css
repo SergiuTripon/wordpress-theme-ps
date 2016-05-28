@@ -1,0 +1,347 @@
+/*
+Theme Name: Passports & Shades
+Theme URI:
+Description:
+Author: Sergiu Tripon
+Author URI: http://sergiu-tripon.com/
+Version: 1.0
+Tags: minimalist, responsive, bootstrap
+*/
+
+html,
+body {
+    /* Display & Box Model */
+    width: 100%;
+    min-height: 100%;
+}
+
+/* Body */
+body {
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+}
+/* End of Body */
+
+/* Container */
+.container {
+	
+	/* Display & Box Model */
+	padding: 0;
+}
+/* End of Container */
+
+.blog-body, .blog-sidebar {
+	margin-top: 20px;
+}
+
+.blog-post, .single-post, .sidebar-widget {
+	margin-bottom: 20px;
+}
+
+.page-nav, .post-nav {
+	padding: 15px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	border: 1px solid #FFFFFF;
+	background-color: rgba(51, 51, 51, 0.5);
+}
+
+.prev-post {
+	width: 50%;
+}
+
+/* Columns */
+.col-lg-12, .col-lg-8, .col-lg-4 {
+	
+	/* Display & Box Model */
+	padding-right: 10px;
+	padding-left: 10px;
+}
+/* End of Columns */
+
+p {
+	
+	/* Display & Box Model */
+	margin: 0;
+}
+
+b {
+	font-weight: 600;
+}
+
+/* Links */
+a,
+a:hover,
+a:focus,
+a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/* End of Links */
+
+/* hr */
+hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/* End of hr */
+
+/* Custom Button */
+/* Buttons */
+.btn {
+    border-radius: 3px;
+}
+
+.btn, .btn:focus, .btn:hover, .btn:focus, .btn:active, .btn.active {
+	box-shadow: none;
+    outline: none !important;
+}
+
+.btn-light {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+	background: transparent;
+}
+
+.btn-light:focus, .btn-light:hover {
+    color: #FFFFFF;
+	border-color: #FFFFFF;
+    background: transparent;
+}
+/* End of Custom Button */
+
+/* Navbar */
+.navbar-custom {
+	
+	/* Display & Box Model */
+	margin-top: 20px;
+	margin-bottom: 0;
+
+    /* Other */
+	border-radius: 3px;
+    border-color: #FFFFFF;
+	background-color: rgba(51, 51, 51, 0.5);
+}
+
+.navbar-custom .navbar-brand {
+
+    /* Other */
+    color: #FFFFFF;
+	font-size: 23px;
+	padding: 15px 10px;
+	font-family: 'Pacifico', cursive;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+
+    /* Other */
+    color: #FFFFFF;
+}
+
+.navbar-custom .nav li a {
+
+    /* Other */
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+
+    /* Other */
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.navbar-custom .navbar-nav>.active>a,
+.navbar-custom .navbar-nav>.active>a:focus,
+.navbar-custom .navbar-nav>.active>a:hover {
+
+    /* Other */
+    color: #FFA42B;
+    background-color: transparent;
+}
+
+.navbar-custom .navbar-toggle {
+
+    /* Other */
+    border-color: #FFFFFF;
+}
+
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:hover {
+
+    /* Other */
+    background-color: transparent;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+
+    /* Other */
+    background-color: #FFFFFF;
+}
+
+.navbar-custom .navbar-collapse {
+
+    /* Other */
+    border-color: #FFFFFF;
+}
+
+@media screen and (min-width:768px){
+.navbar-custom .navbar-brand {
+	font-size: 25px;
+}
+}
+/* End of Navbar */
+
+/* Custom Panel */
+.panel-custom {
+	color: #FFFFFF;
+	margin-bottom: 0;
+	border-radius: 2px;
+	border-color: #FFFFFF;
+	background-color: rgba(51, 51, 51, 0.5);
+}
+
+.panel-custom>.panel-heading {
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+	border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+	background-color: rgba(51, 51, 51, 0);
+}
+
+.single-post .panel-custom .panel-heading p {
+	font-style: italic;
+}
+
+.single-post .panel-custom .panel-title {
+	margin-bottom: 5px;
+}
+
+.panel-custom .panel-body a img {
+	width: 100%;
+	height: 100%;
+	border-radius: 3px;
+	border: 1px solid #FFFFFF;
+	margin: 5px 0 5px 0;
+}
+
+.panel-custom .panel-body iframe {
+	max-width: 100% !important;
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+
+.panel-custom .panel-footer {
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+	border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+	background-color: rgba(51, 51, 51, 0);
+}
+/* End of Custom Panel */
+
+/* Form */
+
+/* Normal Input */
+.form-custom .form-control {
+
+	/* Positioning */
+	position: relative;
+
+	/* Display & Box Model */
+	margin-right: 5px;
+
+	/* Other */
+	color: #FFFFFF;
+	font-size: 15px;
+	box-shadow: none;
+	border-radius: 2px;
+	border-color: #FFFFFF;
+	background: transparent;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+
+.form-custom .form-control:focus {
+
+	/* Other */
+	border-color: #FFFFFF;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/* Placeholder */
+.form-custom .form-control::-webkit-input-placeholder {
+
+    /* Other */
+    color: #F0F0F0;
+}
+
+.form-custom .form-control:-moz-placeholder {
+
+    /* Other */
+    color: #F0F0F0;
+}
+
+.form-custom .form-control::-moz-placeholder {
+
+    /* Other */
+    color: #F0F0F0;
+}
+
+.form-custom .form-control:-ms-input-placeholder {
+
+    /* Other */
+    color: #F0F0F0;
+}
+/* End of Placeholder */
+
+/* Prevents Google Chrome to autocomplete the inputs */
+.form-custom input:-webkit-autofill,
+.form-custom input:-webkit-autofill:hover,
+.form-custom input:-webkit-autofill:focus,
+.form-custom input:-webkit-autofill:active {
+    -webkit-text-fill-color: #FFFFFF !important;
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+}
+
+.form-custom .btn {
+	margin-top: 10px;
+}
+/* End of Form */
+
+/* Sidebar */
+.sidebar-widget li,
+.sidebar-widget ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+/* End of Sidebar */
+
+.social-icons i {
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+/* Footer */
+.footer {
+
+    /* Display & Box Model */
+    padding: 10px 0;
+	margin-bottom: 20px;
+
+    /* Other */
+	color: #FFFFFF;
+	border-radius: 2px;
+	border: 1px solid #FFFFFF;
+	background-color: rgba(51, 51, 51, 0.5);
+}
+/* End of Footer */
